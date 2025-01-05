@@ -1,0 +1,23 @@
+/* src/components/Gallery.css */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    
+  }
+  
+  .gallery-item {
+    width: calc(24.333% - 5px);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    left: .7rem;
+    border-radius: 6px;
+    
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  

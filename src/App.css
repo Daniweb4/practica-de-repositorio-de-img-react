@@ -1,0 +1,33 @@
+/* src/App.css */
+
+/* Normalizar estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Estilos del h1 con animación */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: fadeInOut 2s infinite; /* Repite la animación cada 2 segundos */
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; } /* Comienza y termina con opacidad 0 */
+  50% { opacity: 1; } /* A mitad de camino, la opacidad es 1 */
+}
+
